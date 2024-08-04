@@ -1,7 +1,6 @@
 <div *ngIf="pontoTuristico">
-    <h2>{{ pontoTuristico?.nome }}</h2>
-    <img [src]="pontoTuristico?.foto" alt="{{ pontoTuristico?.nome }}">
-    <p>Latitude: {{ pontoTuristico?.latitude }}</p>
-    <p>Longitude: {{ pontoTuristico?.longitude }}</p>
+    <h2>{{ pontoTuristico.nome }}</h2>
+    <img [src]="pontoTuristico.foto" alt="{{ pontoTuristico.nome }}">
+    <p>Latitude: {{ pontoTuristico.latitude }}</p>
+    <p>Longitude: {{ pontoTuristico.longitude }}</p>
   </div>
-  
