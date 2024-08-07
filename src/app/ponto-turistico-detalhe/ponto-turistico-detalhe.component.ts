@@ -3,7 +3,6 @@ import { ActivatedRoute } from '@angular/router';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import {GoogleMap} from '@angular/google-maps';
-import { environment } from '../../environments/environment.development';
 
 
 
